@@ -1,0 +1,29 @@
+# Eclipse specific files
+.project
+.classpath
+.settings/
+
+# Compiled bytecode
+bin/
+target/
+out/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Maven or Gradle dependencies
+.mvn/
+.gradle/
+node_modules/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+*.bak
+
+# Environment variable files (sensitive)
+.env
