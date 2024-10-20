@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        form{
+            position: relative;
+            width: 30vw;
+            height:50vh;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(0, 255, 183);
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 1in;
+        }
+
+        form label{
+            width:90%;
+            display: flex;
+            justify-content: space-between;
+        }
+        form button{
+            padding: 8px 10px;
+        }
+
+        a{
+           position: relative;
+           top:10vh;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1><u>SignIn Form</u></h1>
+        <form action="" method="post">
+
+            <label for="email">
+                Enter EmailId:
+                <input type="email" name="email" id="email">
+            </label>
+            <label for="password">
+                Enter Password:
+                <input type="password" name="password" id="password">
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+        <a href="./index.html"><button>Home</button></a>
+    </center>
+</body>
+</html>
